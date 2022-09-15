@@ -1,37 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head><title>Aspose.3D</title></head>
-    <style>
-        #canvas {border:1px solid black;width: 900px;height:700px;}
-    </style>
+    <style>    </style>
     <body>
-        <canvas id='canvas'></canvas>
-    </body>
-        <script>
-            var Aspose3D = {
-                locateFile : function(path, prefix) {
-                    return 'https://products.aspose.app/3d/assets/js/' + path;
-                }
-            };
-        </script>
-        <script src='https://products.aspose.app/3d/assets/js/aspose.3d-2.1.js'></script>
-        <script>
+        <div>
 
-                aspose3d({
-                    canvas : 'canvas',
-                    movement : 'orbital',
-                    centerModel : true,
-                    features : ['grid', 'menu', 'summary', 'orientationBox', ],
-                    camera:
-                    {
-                        far: 1000,
-                        near: 1,
-                        up: 'y',
-                        lookAt : [0, 0, 0],
-                        position : [10, 10, 10],
-                        fov : 45
-                    },
-                    url: 'scene.usdz'
-                });
-        </script>
+	<h2>AR (USDZ) file from <a href="https://developer.apple.com/augmented-reality/quick-look/">Apple</a></h2>
+	<a href="https://developer.apple.com/augmented-reality/quick-look/models/drummertoy/toy_drummer.usdz" rel="ar" target="_blank">
+        <img src="https://developer.apple.com/augmented-reality/quick-look/models/drummertoy/drummertoy.jpg" srcset="https://developer.apple.com/augmented-reality/quick-look/models/drummertoy/drummertoy_2x.jpg" alt="" />
+    </a>
+</div>
+    </body>
 </html>
